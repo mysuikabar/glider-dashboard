@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "glider-dashboard"
+version = "0.1.0"
+description = ""
+authors = ["mysuikabar <mizuho.suikabar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dash = "^2.17.0"
+google-cloud-bigquery = "^3.23.1"
+dash-bootstrap-components = "^1.6.0"
+gunicorn = "^22.0.0"
+pandas = "^2.2.2"
+pandas-gbq = "^0.23.0"
+igc-processor = "^0.1.1"
+dash-uploader = "^0.6.0"
+packaging = "21.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

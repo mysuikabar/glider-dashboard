@@ -1,0 +1,7 @@
+*.pyc
+.env
+.venv
+.git
+.devcontainer
+.mypy_cache
+.vscode

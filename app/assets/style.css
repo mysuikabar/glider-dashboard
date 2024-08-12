@@ -1,0 +1,8 @@
+.fig {
+    padding: 10px;
+}
+
+.parent-div > * {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
